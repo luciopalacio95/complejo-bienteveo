@@ -18,6 +18,12 @@ body {
   font-family: 'Poor Richard', sans-serif !important;
 }
 
+.bg_casa{
+  background-color: #e3e0d9;
+}
+.bg_inferior {
+  background-color: #5b4f4f;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
