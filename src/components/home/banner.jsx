@@ -19,7 +19,7 @@ export default function Banner(){
             useKeyboardArrows
             margin={0}
             padding={0}
-            autoPlay={true}
+            autoPlay={false}
             interval={6000}
             transitionTime={900}
           >    
