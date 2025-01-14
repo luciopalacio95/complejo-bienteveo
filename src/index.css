@@ -15,15 +15,24 @@
 
 body {
   background: white;
+  letter-spacing: 1px;
   font-family: 'Poor Richard', sans-serif !important;
 }
 
 .bg_casa{
   background-color: #e3e0d9;
 }
+.bg_contacto{
+  background-color: #e3e0d94f;
+}
 .bg_inferior {
   background-color: #5b4f4f;
 }
+
+.btn_calltoaction{
+  box-shadow: 2px 7px 96px -2px #5b4f4f;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

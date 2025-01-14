@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll'
 import { useState } from 'react'
 import {
   Dialog,
@@ -18,14 +18,21 @@ export default function Header() {
     <header className="bg_casa fixed w-full z-50 top-0 border-solid border-slate-950/30 border-b-2">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8">
         <div className="flex lg:flex-1">
-          <Link to="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">COMPLELO BIENTEVEO</span>
-                <img 
-                  src={logo}
-                  className='img-responsive w-auto h-10 sm:h-12'
-                  alt='logo'
-                />
-          </Link>
+          <Link
+              className="-m-1.5 p-1.5 cursor-pointer"
+              to='home'
+              spy
+              smooth
+              offset={-180}
+              duration={600}
+            >
+              <span className="sr-only">COMPLELO BIENTEVEO</span>
+              <img 
+                src={logo}
+                className='img-responsive w-auto h-10 sm:h-12'
+                alt='logo'
+              />
+            </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -38,16 +45,44 @@ export default function Header() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <Link to="/" className="text-2xl/6 font-normal text-gray-900 hover:text-gray-500">
+          <Link
+            className="text-2xl/6 font-normal text-gray-900 hover:text-gray-500 cursor-pointer"
+            to='home'
+            spy
+            smooth
+            offset={-180}
+            duration={600}
+          >
             Inicio
           </Link>
-          <Link to="/#servicios" className="text-2xl/6 font-normal text-gray-900 hover:text-gray-500">
+          <Link
+            className="text-2xl/6 font-normal text-gray-900 hover:text-gray-500 cursor-pointer"
+            to='servicios'
+            spy
+            smooth
+            offset={-180}
+            duration={600}
+          >
             Servicios
           </Link>
-          <Link to="/#galeria" className="text-2xl/6 font-normal text-gray-900 hover:text-gray-500">
-            Galeria
+          <Link
+            className="text-2xl/6 font-normal text-gray-900 hover:text-gray-500 cursor-pointer"
+            to='galeria'
+            spy
+            smooth
+            offset={-180}
+            duration={600}
+          >
+            Galería
           </Link>
-          <Link to="/#contacto" className="text-2xl/6 font-normal text-gray-900 hover:text-gray-500">
+          <Link
+            className="text-2xl/6 font-normal text-gray-900 hover:text-gray-500 cursor-pointer"
+            to='contacto'
+            spy
+            smooth
+            offset={-180}
+            duration={600}
+          >
             Contáctenos
           </Link>
         </PopoverGroup>
@@ -56,7 +91,15 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg_casa px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link to="#" className="-m-1.5 p-1.5">
+            <Link
+              className="-m-1.5 p-1.5 cursor-pointer"
+              to='home'
+              onClick={() => setMobileMenuOpen(false)}
+              spy
+              smooth
+              offset={-180}
+              duration={600}
+            >
               <span className="sr-only">Complejo Bienteveo</span>
               <img
                 alt=""
@@ -76,19 +119,50 @@ export default function Header() {
           <div className="mt-14 flow-root text-center">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="py-6">
-                <Link to="/" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block my-6 rounded-lg px-3 py-4 text-3xl/7 font-normal text-gray-900 hover:bg-gray-50">
-                    Inicio
+                <Link
+                  className="-mx-3 block my-6 rounded-lg px-3 py-4 text-3xl/7 font-normal text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  to='home'
+                  onClick={() => setMobileMenuOpen(false)}
+                  spy
+                  smooth
+                  offset={-180}
+                  duration={600}
+                >
+                  Inicio
                 </Link>
-                <Link to="/#servicios" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block my-6 rounded-lg px-3 py-4 text-3xl/7 font-normal text-gray-900 hover:bg-gray-50">
-                    Servicios
+                <Link
+                  className="-mx-3 block my-6 rounded-lg px-3 py-4 text-3xl/7 font-normal text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  to='servicios'
+                  onClick={() => setMobileMenuOpen(false)}
+                  spy
+                  smooth
+                  offset={-100}
+                  duration={600}
+                >
+                  Servicios
                 </Link>
-                <Link to="/#galeria" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block my-6 rounded-lg px-3 py-4 text-3xl/7 font-normal text-gray-900 hover:bg-gray-50">
-                    Galeria
+                <Link
+                  className="-mx-3 block my-6 rounded-lg px-3 py-4 text-3xl/7 font-normal text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  to='galeria'
+                  onClick={() => setMobileMenuOpen(false)}
+                  spy
+                  smooth
+                  offset={-180}
+                  duration={600}
+                >
+                  Galería
                 </Link>
-                <Link to="/#contacto" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block my-6 rounded-lg px-3 py-4 text-3xl/7 font-normal text-gray-900 hover:bg-gray-50">
-                    Contáctenos
+                <Link
+                  className="-mx-3 block my-6 rounded-lg px-3 py-4 text-3xl/7 font-normal text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  to='contacto'
+                  onClick={() => setMobileMenuOpen(false)}
+                  spy
+                  smooth
+                  offset={-100}
+                  duration={600}
+                >
+                  Contáctenos
                 </Link>
-
               </div>
               <div className="py-6">
               </div>
