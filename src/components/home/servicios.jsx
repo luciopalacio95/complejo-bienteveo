@@ -11,7 +11,7 @@ export default function Servicios(){
         <section className="mt-28 px-6 sm:px-28" id='servicios'>
             <h1 className="text-center text-4xl text-stone-900">Servicios</h1>
             <p className="text-stone-900 text-2xl text-pretty mt-8 mb-5">
-                Bienvenidos a Complejo Bienteveo, su hogar lejos de casa en el corazón de las sierras cordobesas, a solo 50mts del río San Antonio. 
+                Bienvenidos a Complejo Bienteveo, su hogar lejos de casa en el corazón de las sierras cordobesas, a tan solo 50mts del río San Antonio. 
                 <br></br>
                 Ofrecemos un espacio de descanso, acompañado de comodidad y tranquilidad, en un entorno natural incomparable.
                 <br></br>
