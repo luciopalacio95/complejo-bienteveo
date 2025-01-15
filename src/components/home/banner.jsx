@@ -1,10 +1,10 @@
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
 
-import sl1 from '../../assets/images/banner_panoramico.jpg'
-import slm1 from '../../assets/images/banner_panoramico_m.jpg'
-import sl2 from '../../assets/images/banner_pileta.jpg'
-import slm2 from '../../assets/images/banner_pileta_m.jpg'
+import sl1 from '../../assets/images/slider_panoramico.jpg'
+import slm1 from '../../assets/images/slider_panoramico_m.jpg'
+import sl2 from '../../assets/images/slider_pileta.jpg'
+import slm2 from '../../assets/images/slider_pileta_m.jpg'
 
 export default function Banner(){
     return (
@@ -15,7 +15,7 @@ export default function Banner(){
             showThumbs={false}
             showStatus={false}
             infiniteLoop
-            swipeable={false} 
+            swipeable={true} 
             useKeyboardArrows
             margin={0}
             padding={0}

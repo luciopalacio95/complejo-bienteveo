@@ -70,7 +70,7 @@ export default function Header() {
             to='galeria'
             spy
             smooth
-            offset={-180}
+            offset={-100}
             duration={600}
           >
             Galería
@@ -147,7 +147,7 @@ export default function Header() {
                   onClick={() => setMobileMenuOpen(false)}
                   spy
                   smooth
-                  offset={-180}
+                  offset={-90}
                   duration={600}
                 >
                   Galería
