@@ -12,7 +12,7 @@ export default function Contacto(){
                     <br></br><br></br>
                     <b>Teléfono-WhatsApp:</b>
                     <br></br>
-                    <a className="text-blue-700" href="https:///wa.me/send?phone=543515730873&amp;text=Hola%20Complejo%20Bienteveo,%20quiero%20realizar%20una%20reserva..." target="_blank">0351-155730873</a>
+                    <a className="text-blue-700" href="https://api.whatsapp.com/send?phone=543515730873&amp;text=Hola%20Complejo%20Bienteveo,%20quiero%20realizar%20una%20reserva..." target="_blank">0351-155730873</a>
                     <br></br>
                 </div>
             </div>
