@@ -15,7 +15,7 @@ export default function Banner(){
             showThumbs={false}
             showStatus={false}
             infiniteLoop
-            swipeable={true} 
+            swipeable={false} 
             useKeyboardArrows
             margin={0}
             padding={0}
