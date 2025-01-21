@@ -1,9 +1,11 @@
-import { TbPhotoShare } from "react-icons/tb";
 import complejo from '../../assets/images/banner_complejo.jpg'
 import pileta from '../../assets/images/banner_pileta.jpg'
 import rio from '../../assets/images/banner_rio.jpg'
+import { fotos } from '../../utils/constants';
+import ModalGallery from "../layouts/modalGallery";
 
 export default function Galeria(){
+
     return (
         <section className="mt-36 px-6 sm:px-28" id='galeria'>
             <h1 className="text-center text-4xl text-stone-900">Galería</h1>
@@ -20,10 +22,7 @@ export default function Galeria(){
                             <p className="mb-3 font-normal text-xl sm:text-2xl text-gray-900 min-h-52 sm:min-h-60">
                                 El Complejo Bienteveo te invita a disfrutar de su incomparable belleza natural y la comodidad de sus instalaciones. Con una ubicación privilegiada, es el lugar perfecto para relajarse y desconectar.
                             </p>
-                            <a className="bg_inferior inline-flex items-center hover:opacity-80 text-white text-lg font-medium px-3 py-2 border rounded-md" target='_blank' href="">
-                                Ver fotos y videos
-                                <TbPhotoShare className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
-                            </a>
+                            <ModalGallery fotos={fotos.complejo}/>
                         </div>
                     </div>
                 </div>
@@ -37,11 +36,9 @@ export default function Galeria(){
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800">Pileta y Jacuzzi</h5>
                             </a>
                             <p className="mb-3 font-normal text-xl sm:text-2xl text-gray-900 min-h-52 sm:min-h-60">
-                                Nuestro complejo ofrece una experiencia de relajación total, con una amplia pileta y un jacuzzi perfectos para su disfrute. Sumérgete y déjate llevar por el confort y la serenidad que te esperan.</p>
-                            <a className="bg_inferior inline-flex items-center hover:opacity-80 text-white text-lg font-medium px-3 py-2 border rounded-md" target='_blank' href="">
-                                Ver fotos y videos
-                                <TbPhotoShare className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
-                            </a>
+                                Nuestro complejo ofrece una experiencia de relajación total, con una amplia pileta y un jacuzzi perfectos para su disfrute. Sumérgete y déjate llevar por el confort y la serenidad que te esperan.
+                            </p>
+                            <ModalGallery fotos={fotos.pileta}/>
                         </div>
                     </div>
                 </div>
@@ -57,10 +54,7 @@ export default function Galeria(){
                             <p className="mb-3 font-normal text-xl sm:text-2xl text-gray-900 min-h-52 sm:min-h-60">
                                 El río de las sierras cordobesas es un paraíso acompañado de paisajes verdes que invitan a la calma y la contemplación en cada rincón. Además, está a tan solo 50 metros del complejo.
                             </p>
-                            <a className="bg_inferior inline-flex items-center hover:opacity-80 text-white text-lg font-medium px-3 py-2 border rounded-md" target='_blank' href="">
-                                Ver fotos y videos
-                                <TbPhotoShare className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
-                            </a>
+                            <ModalGallery fotos={fotos.rio}/>
                         </div>
                     </div>
                 </div>
