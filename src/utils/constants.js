@@ -1,41 +1,41 @@
-//complejo
-import complejo1 from './../assets/images/fotos/complejo/i1.jpg';
-import complejo2 from './../assets/images/fotos/complejo/i2.jpg';
-import complejo3 from './../assets/images/fotos/complejo/i3.jpg';
-import complejo4 from './../assets/images/fotos/complejo/i4.jpg';
-import complejo5 from './../assets/images/fotos/complejo/i5.jpg';
-import complejo6 from './../assets/images/fotos/complejo/i6.jpg';
-import complejo7 from './../assets/images/fotos/complejo/i7.jpg';
-import complejo8 from './../assets/images/fotos/complejo/i8.jpg';
-import complejo9 from './../assets/images/fotos/complejo/i9.jpg';
-import complejo10 from './../assets/images/fotos/complejo/i10.jpg';
-import complejo11 from './../assets/images/fotos/complejo/i11.jpg';
-import complejo12 from './../assets/images/fotos/complejo/i12.jpg';
-import complejo13 from './../assets/images/fotos/complejo/i13.jpg';
-import complejo14 from './../assets/images/fotos/complejo/i14.jpg';
-import complejo15 from './../assets/images/fotos/complejo/i15.jpg';
-import complejo16 from './../assets/images/fotos/complejo/i16.jpg';
+// Complejo
+import complejo1 from '../assets/images/fotos/complejos/i1.jpg';
+import complejo2 from '../assets/images/fotos/complejos/i2.jpg';
+import complejo3 from '../assets/images/fotos/complejos/i3.jpg';
+import complejo4 from '../assets/images/fotos/complejos/i4.jpg';
+import complejo5 from '../assets/images/fotos/complejos/i5.jpg';
+import complejo6 from '../assets/images/fotos/complejos/i6.jpg';
+import complejo7 from '../assets/images/fotos/complejos/i7.jpg';
+import complejo8 from '../assets/images/fotos/complejos/i8.jpg';
+import complejo9 from '../assets/images/fotos/complejos/i9.jpg';
+import complejo10 from '../assets/images/fotos/complejos/i10.jpg';
+import complejo11 from '../assets/images/fotos/complejos/i11.jpg';
+import complejo12 from '../assets/images/fotos/complejos/i12.jpg';
+import complejo13 from '../assets/images/fotos/complejos/i13.jpg';
+import complejo14 from '../assets/images/fotos/complejos/i14.jpg';
+import complejo15 from '../assets/images/fotos/complejos/i15.jpg';
+import complejo16 from '../assets/images/fotos/complejos/i16.jpg';
 
-//Pileta
-import pileta1 from './../assets/images/fotos/pileta/i1.jpg';
-import pileta2 from './../assets/images/fotos/pileta/i2.jpg';
-import pileta3 from './../assets/images/fotos/pileta/i3.jpg';
-import pileta4 from './../assets/images/fotos/pileta/i4.jpg';
-import pileta5 from './../assets/images/fotos/pileta/i5.jpg';
-import pileta6 from './../assets/images/fotos/pileta/i6.jpg';
-import vpileta1 from './../assets/images/videos/pileta/v1.mp4';
-import vpileta2 from './../assets/images/videos/pileta/v2.mp4';
+// Pileta
+import pileta1 from '../assets/images/fotos/pileta/i1.jpg';
+import pileta2 from '../assets/images/fotos/pileta/i2.jpg';
+import pileta3 from '../assets/images/fotos/pileta/i3.jpg';
+import pileta4 from '../assets/images/fotos/pileta/i4.jpg';
+import pileta5 from '../assets/images/fotos/pileta/i5.jpg';
+import pileta6 from '../assets/images/fotos/pileta/i6.jpg';
+import vpileta1 from '../assets/images/videos/pileta/v1.mp4';
+import vpileta2 from '../assets/images/videos/pileta/v2.mp4';
 
 // Rio
-import rio1 from './../assets/images/fotos/rio/i1.jpg';
-import rio2 from './../assets/images/fotos/rio/i2.jpg';
-import rio3 from './../assets/images/fotos/rio/i3.jpg';
-import rio4 from './../assets/images/fotos/rio/i4.jpg';
-import rio5 from './../assets/images/fotos/rio/i5.jpg';
-import rio6 from './../assets/images/fotos/rio/i6.jpg';
-import vrio1 from './../assets/images/videos/rio/v1.mp4';
-import vrio2 from './../assets/images/videos/rio/v2.mp4';
-import vrio3 from './../assets/images/videos/rio/v3.mp4';
+import rio1 from '../assets/images/fotos/rio/i1.jpg';
+import rio2 from '../assets/images/fotos/rio/i2.jpg';
+import rio3 from '../assets/images/fotos/rio/i3.jpg';
+import rio4 from '../assets/images/fotos/rio/i4.jpg';
+import rio5 from '../assets/images/fotos/rio/i5.jpg';
+import rio6 from '../assets/images/fotos/rio/i6.jpg';
+import vrio1 from '../assets/images/videos/rio/v1.mp4';
+import vrio2 from '../assets/images/videos/rio/v2.mp4';
+import vrio3 from '../assets/images/videos/rio/v3.mp4';
 
 export const fotos = {
     "complejo": [
