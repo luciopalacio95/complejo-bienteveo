@@ -1,10 +1,11 @@
-import { MdPool, MdOutlineWifi, MdOutlineMicrowave } from "react-icons/md";
+import { MdPool, MdOutlineWifi, MdOutlineMicrowave, MdOutlineDoNotTouch } from "react-icons/md";
 import { TbAirConditioning } from "react-icons/tb";
 import { GiBarbecue, GiClothesline } from "react-icons/gi";
 import { RiSafeLine } from "react-icons/ri";
-import { PiTelevision } from "react-icons/pi";
+import { PiTelevision, PiDog } from "react-icons/pi";
 import { BiSolidCarGarage } from "react-icons/bi";
 import { LuRefrigerator } from "react-icons/lu";
+import NotPets from "../../assets/images/svg/notPets";
 
 export default function Servicios(){
     return (
@@ -48,7 +49,13 @@ export default function Servicios(){
                 </div>     
                 <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
                     <RiSafeLine className="mr-2 text-3xl"/> Caja Fuerte
-                </div>  
+                </div>
+                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                    <NotPets className="mr-2 text-3xl"/> NO se Admiten Mascotas
+                </div>
+                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                    <MdOutlineDoNotTouch className="mr-2 text-3xl"/> NO se Permiten Visitas
+                </div>
             </div>
             <div className="text-center mt-20">
                 <a className="bg_inferior btn_calltoaction hover:opacity-80 text-white text-xl sm:text-2xl font-medium px-4 sm:px-6 py-3 border rounded-md" target='_blank' href="https://api.whatsapp.com/send?phone=543515730873&amp;text=Hola%20Complejo%20Bienteveo,%20quiero%20realizar%20una%20reserva...">Reserva tu estadía ahora</a>
