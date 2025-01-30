@@ -1,6 +1,6 @@
 export default function NotPets(props){
     return(
-        <svg fill="#000000" height="30px" width="30px" className={props.className} version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        <svg fill="#000000" height="30px" width="30px" className={props.className} version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
         viewBox="0 0 313.725 313.725" xmlSpace="preserve">
             <g>
                 <path d="M218.992,133.607c1.628,0.715,3.265,1.418,4.888,2.123c4.772,2.074,9.742,3.039,14.948,2.731

@@ -60,7 +60,7 @@ export default function Header() {
             to='servicios'
             spy
             smooth
-            offset={-180}
+            offset={-100}
             duration={600}
           >
             Servicios
@@ -80,7 +80,7 @@ export default function Header() {
             to='contacto'
             spy
             smooth
-            offset={-180}
+            offset={-100}
             duration={600}
           >
             Contáctenos

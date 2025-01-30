@@ -1,4 +1,4 @@
-import { MdPool, MdOutlineWifi, MdOutlineMicrowave, MdOutlineDoNotTouch } from "react-icons/md";
+import { MdPool, MdOutlineWifi, MdOutlineMicrowave, MdOutlineDoNotTouch, MdDoNotDisturbAlt } from "react-icons/md";
 import { TbAirConditioning } from "react-icons/tb";
 import { GiBarbecue, GiClothesline } from "react-icons/gi";
 import { RiSafeLine } from "react-icons/ri";
@@ -20,41 +20,44 @@ export default function Servicios(){
                 <br></br><br></br>
             </p>
             <div className='w-full flex flex-wrap gap-y-10 text-base sm:text-2xl'>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <TbAirConditioning className="mr-2 text-3xl"/> Aire Acondicionado
                 </div>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                 <PiTelevision className="mr-2 text-3xl"/> Televisores por Cable
                 </div>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <MdOutlineWifi className="mr-2 text-2xl"/> Wi-fi
                 </div>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <MdOutlineMicrowave className="mr-2 text-3xl"/> Microondas
                 </div>                
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <LuRefrigerator className="mr-2 text-3xl"/> Heladera con Frezzer
                 </div> 
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <MdPool className="mr-2 text-3xl"/> Sector con Pileta y Jacuzzi
                 </div>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <BiSolidCarGarage className="mr-2 text-3xl"/> Cochera Cubierta
                 </div>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <GiBarbecue className="mr-2 text-3xl"/> Asador Individual
                 </div>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <GiClothesline className="mr-2 text-3xl"/> Tender de Ropa
                 </div>     
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <RiSafeLine className="mr-2 text-3xl"/> Caja Fuerte
                 </div>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <NotPets className="mr-2 text-3xl"/> NO se Admiten Mascotas
                 </div>
-                <div className="basis-1/2 sm:basis-1/4 text-pretty flex justify-stretch sm:items-center">
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
                     <MdOutlineDoNotTouch className="mr-2 text-3xl"/> NO se Permiten Visitas
+                </div>
+                <div className="basis-1/2 sm:basis-1/3 text-pretty flex justify-stretch sm:items-center">
+                    <MdDoNotDisturbAlt className="mr-2 text-3xl"/> NO incluye sabanas ni toallas
                 </div>
             </div>
             <div className="text-center mt-20">

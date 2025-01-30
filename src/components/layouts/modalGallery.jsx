@@ -14,19 +14,18 @@ import "yet-another-react-lightbox/plugins/counter.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 export default function ModalGallery(props){
-    const [openGallery, setOpenGallery] = useState(false);
     return (
         <>
             <button
                 className="bg_inferior inline-flex items-center hover:opacity-80 text-white text-lg font-medium px-3 py-2 border rounded-md"
-                onClick={() => setOpenGallery(true)}
+                onClick={() => props.setOpenGallery(true)}
             >
             Ver fotos y videos
                 <TbPhotoShare className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
             </button>
             <Lightbox
-                open={openGallery}
-                close={() => setOpenGallery(false)}
+                open={props.openGallery}
+                close={() => props.setOpenGallery(false)}
                 plugins={[Captions, Counter, Fullscreen, /*Thumbnails,*/ Zoom, Video]}
                 counter={{ container: { style: { top: "unset", bottom: 0 } } }}
                 slides={ props.fotos }
